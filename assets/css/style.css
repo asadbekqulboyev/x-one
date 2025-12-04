@@ -12,7 +12,7 @@
 }
 
 .banner {
-    background: url(./hero_bg.png) no-repeat center;
+    background: url(../assets/hero_bg.png) no-repeat center;
     background-size: cover;
     padding: 46px 0 24px;
     font-family: 'Montserrat';
