@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Konexy Personal Use";
+    src: url(./assets/fonts/KonexyPersonalUse.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background: url(./hero_bg.png) no-repeat center;
+    background-size: cover;
+    padding: 46px 0 24px;
+    font-family: 'Montserrat';
+}
+
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 0 0 32px;
+}
+
+.banner .banner_title {
+    font-weight: 800;
+    font-size: 48px;
+    color: #d32424;
+    padding-top: 86px;
+}
+
+.banner .banner_subtitle {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.banner .banner_items {
+    padding-top: 86px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.banner .banner_item {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.banner .banner_item .banner_item_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner .banner_item .banner_item_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 128%;
+    color: #fff;
+}
+
+.banner .banner_item .banner_item_subtitle {
+    font-weight: 400;
+    color: #b9b9b9;
+}
+
+.banner .banner_item span {
+    display: flex;
+    width: 67px;
+    justify-content: center;
+    align-items: center
+}
+
+.banner_buttons {
+    display: flex;
+    gap: 31px;
+    margin-top: 50px;
+}
+
+.banner_buttons a {
+    border-radius: 5px;
+    padding: 20px 48px;
+    background: #d32424;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner_buttons a span {
+    font-family: "Konexy Personal Use";
+}
+
+.banner_buttons .bold {
+    font-weight: 700;
+}
+
+.banner_btn-note {
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    padding: 15px 15px 14px 19px;
+}
+
+.banner_btn-note::after {
+    position: absolute;
+    content: '';
+    border-right: 12px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    top: 20px;
+    left: -11px;
+    display: block;
+    z-index: 12;
+}
